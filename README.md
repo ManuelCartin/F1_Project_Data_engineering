@@ -1,11 +1,31 @@
-# F1_Project_Data_engineering
-## Formula 1 Seasons Dataset (2020–2025)
+# "F1 Insights" Project: Building a Data Product for Strategic Decision-Making
+This project is not just a demonstration of data engineering skills, but the creation of a high-value data source for Formula 1 performance analysis. Its objective is to provide a clean and structured database that serves as a "product" for analysts, data scientists, or team managers to make insight-driven strategic decisions.
 
-This project aims to build a comprehensive dataset covering Formula 1 seasons from 2020 to 2025. The goal is to demonstrate my skills in data engineering, including data collection, cleaning, integration, and structuring for analysis.
+My focus is on leading every phase of creating this data product, from ideation to delivery.
 
-**Note:** I did not use Beautiful Soup for web scraping because the target web service does not render tables using standard HTML. Instead, I explored alternative methods to extract the data, such as API requests, browser automation, and manual parsing of dynamic content.
+## Challenges and Solutions (PM Approach)
+The main challenge was data acquisition. The lack of a public API or a standard HTML structure for web scraping forced me to adopt a problem-solving approach beyond conventional methods. This strategic decision was key to ensuring the integrity and scalability of the final data product.
 
-The final dataset includes race results, practice sessions, qualifying data, and driver/team performance metrics across multiple seasons. It is designed to support analytical tasks such as performance comparison, consistency tracking, and predictive modeling.
-***Disclaimer al jupitter notebook with name F1_Season_2020_.... is only for demostrated how to sort the problem to download de info. and building the grand Data Frame***
-07/11/2025 notes: me now working this project... the ultimate version i hope is ready nextly...
-thanks for read this project... see ya with the project are finish. take care and working with the data.
+- Problem Identification: F1 data is fragmented and in non-standard formats, making it difficult to analyze.
+
+- Solution Design: Rather than relying on limited tools, I explored and validated alternative data extraction methods, demonstrating my ability to innovate and adapt the strategy according to technical challenges.
+
+## Data Product Features
+The final product is a robust and easy-to-use dataset, designed with a clear purpose: to facilitate analysis.
+
+- Scope: Covers the 2020 to 2025 seasons, providing a consistent timeframe for trend analysis.
+
+- Content: Includes race results, practice sessions, qualifying data, and driver and team performance metrics.
+
+- Value: Data cleansing, integration, and structuring save analysts hours of work, allowing them to focus on insight generation rather than data preparation.
+
+## Roadmap and Lessons Learned
+Current Status: The project is complete. The Jupiter notebook serves as a record of the process and technical decisions made to overcome data acquisition challenges.
+
+Key Lessons for a Product Manager:
+
+The Value of Data Engineering: The quality of the final product directly depends on the quality of the underlying data. A PM must understand this principle to make decisions that ensure product reliability.
+
+Strategic Adaptation: A good product leader doesn't adhere to a rigid plan. They must be able to adapt the strategy to meet technical challenges to meet project objectives.
+
+User-Centered Design: A data product is only valuable if it is easy to use. The final design was guided by the need for users to be able to query it efficiently.
