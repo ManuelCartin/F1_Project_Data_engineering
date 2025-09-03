@@ -35,5 +35,10 @@ Key Lessons for a Product Manager:
 The Value of Data Engineering: The quality of the final product directly depends on the quality of the underlying data. A PM must understand this principle to make decisions that ensure product reliability.
 
 Strategic Adaptation: A good product leader doesn't adhere to a rigid plan. They must be able to adapt the strategy to meet technical challenges to meet project objectives.
-
 User-Centered Design: A data product is only valuable if it is easy to use. The final design was guided by the need for users to be able to query it efficiently.
+
+## Notes on Previous Versions
+This repository includes two initial notebooks showing early attempts at data acquisition with Beautiful Soup and manual workflows.
+*Prototype: F1_Season2020_AUS_GP_F1.ipnb, F1_Season_2020_StyriaGP.ipynb* 
+
+These prototypes are maintained as a historical reference for the process, but **the optimized version is the official product version**.
