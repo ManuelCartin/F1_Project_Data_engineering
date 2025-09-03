@@ -3,12 +3,20 @@ This project is not just a demonstration of data engineering skills, but the cre
 
 My focus is on leading every phase of creating this data product, from ideation to delivery.
 
-## Challenges and Solutions (PM Approach)
-The main challenge was data acquisition. The lack of a public API or a standard HTML structure for web scraping forced me to adopt a problem-solving approach beyond conventional methods. This strategic decision was key to ensuring the integrity and scalability of the final data product.
+## Challenges and Solutions (Project Management Approach)
+The main challenge was data acquisition. The lack of a public API or standard HTML structure for web scraping forced me to adopt a problem-solving approach that went beyond conventional methods. This strategic decision was key to ensuring the integrity and scalability of the final data product.
 
-- Problem Identification: F1 data is fragmented and in non-standard formats, making it difficult to analyze.
+Problem Identification: F1 data is fragmented and in non-standard formats, making it difficult to analyze.
 
-- Solution Design: Rather than relying on limited tools, I explored and validated alternative data extraction methods, demonstrating my ability to innovate and adapt the strategy according to technical challenges.
+Solution Design:
+
+Instead of relying on limited tools, I explored and validated alternative data extraction methods.
+
+I developed an optimization script with Pandas that automates the download and merge of all tables for each season, reducing the complexity of manual scraping.
+
+The parameterizable function allows setting the URL, save path, final file name, and merge method per driver, generating data sets ready for analysis with a single command.
+
+This approach not only solved the initial problem but also turned data acquisition into a fast, robust, and reusable process, aligned with the needs of a scalable product.
 
 ## Data Product Features
 The final product is a robust and easy-to-use dataset, designed with a clear purpose: to facilitate analysis.
